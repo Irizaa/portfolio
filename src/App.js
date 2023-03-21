@@ -3,6 +3,7 @@ import './App.css'
 import {React, useState, useEffect} from 'react'
 import TitleSection from './Components/TitleSection'
 import Loading from './Components/Loading'
+import ProjectSection from './Components/ProjectSection'
 
 const App = () => {
   const [loadingComplete, setLoadingComplete] = useState(false)
@@ -19,6 +20,7 @@ const App = () => {
     <div>
       <section className = 'hidden'>
         <TitleSection/>
+        <ProjectSection/>
       </section>
         {!loadingComplete && (
             <Loading onLoadingComplete={() => setLoadingComplete(true)}></Loading>
