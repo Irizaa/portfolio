@@ -1,8 +1,11 @@
 #title-container {
-    background-color: #2E1114;
     width: 100%;
     display: none;
     align-items: center;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(/src/Fonts/Inter/static/Inter-Bold.ttf)f;
 }
 #logo-container {
     left: 0;
@@ -15,7 +18,7 @@
 h1 {
     color: whitesmoke;
     font-size: calc(40px + 2vmin);
-    font-style: italic;
+    font-family: 'Inter', sans-serif;
 }
 #github-logo {
     border-radius: 50%;

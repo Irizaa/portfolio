@@ -13,6 +13,7 @@ const Loading = ({onLoadingComplete}) => {
             setTimeout(() => {
                 document.getElementById('title-container').style.display = 'flex'
                 document.getElementById('project-container').style.display = 'flex'
+                document.getElementById('about-container').style.display = 'flex'
                 setFadeOut(true)
                 setTimeout(() => {
                     onLoadingComplete()

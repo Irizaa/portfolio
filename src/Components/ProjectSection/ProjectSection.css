@@ -1,6 +1,36 @@
 #project-container {
-    height: 40vh;
+    align-items: center;
     width: 100%;
-    background-color: #64485C;
+    background-color: 	#001f24;
     display: none;
+    
+}
+#project-gifs {
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom:1vh;
+    flex-wrap: wrap;
+    display: absolute;
+}
+.small-video {
+    width: 300px;
+    cursor: pointer;
+}
+.higherlower-gif {
+    filter: grayscale(100%);
+}
+#project-information {
+    display: inline-block;
+}
+#project-information h3 {
+    color: white;
+    font-size: calc(20px + 2vmin);
+}
+#project-information p {
+    color: white;
+    font-size: calc(10px + 2vmin);
 }
