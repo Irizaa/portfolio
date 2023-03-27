@@ -1,6 +1,6 @@
 body {
     background-color: rgba(0,0,0,0.96);
-    overflow: hidden;
+    
 }
 section {
     display: grid;

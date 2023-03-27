@@ -1,18 +1,24 @@
 #about-container {
     display: none;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     background-color: #0f4539;
 }
-#about-container h2 {
+h2 {
     font-size: calc(14px + 2vmin);
     color: whitesmoke;
 }
 #about-container p {
-    width: 50%;
+    width: 70%;
     font-size: calc(7px + 2vmin);
     margin-top: -15px;
     color: #EDEADE;
+}
+@media(max-width: 800px) {
+    #about-container p {
+        font-size: calc(12px + 2vmin);
+    }
 }

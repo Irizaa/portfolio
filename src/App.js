@@ -5,6 +5,7 @@ import TitleSection from './Components/TitleSection'
 import Loading from './Components/Loading'
 import ProjectSection from './Components/ProjectSection'
 import AboutMe from './Components/AboutMe'
+import SkillSection from './Components/SkillSection/SkillSection'
 
 const App = () => {
   const [loadingComplete, setLoadingComplete] = useState(false)
@@ -23,6 +24,7 @@ const App = () => {
         <TitleSection/>
         <AboutMe/>
         <ProjectSection/>
+        <SkillSection/>
       </section>
         {!loadingComplete && (
             <Loading onLoadingComplete={() => setLoadingComplete(true)}></Loading>
