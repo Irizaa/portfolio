@@ -48,11 +48,11 @@ const ProjectSection = () => {
     const elements = document.querySelectorAll(`.${project.metaname}-gif`);
       elements.forEach(element => {
       element.style.filter = 'grayscale(0%)';
+      element.style.borderTop = '2px solid red';
     })
     const elements2 = document.querySelectorAll(`.${opposite}-gif`);
       elements2.forEach(element => {
       element.style.filter = 'grayscale(100%)'
-      element.style.borderTop = '2px solid red';
     })
   }
   console.log(currProject)

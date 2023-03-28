@@ -18,8 +18,12 @@
     width: 30%;
     cursor: pointer;
 }
+.soundstats-gif {
+  border-top: 2px solid red;
+}
 .higherlower-gif {
     filter: grayscale(100%);
+    border-top: 2px solid;
 }
 #project-information {
     width: 50%;
