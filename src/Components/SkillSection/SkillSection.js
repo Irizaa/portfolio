@@ -1,12 +1,12 @@
 import React from 'react'
 import './SkillSection.css'
 import PythonLogo from '../../Assets/pythonlogo.png'
-import NodeLogo from '../../Assets/nodelogo5.png'
+import NodeLogo from '../../Assets/nodelogo.png'
 import ReactLogo from '../../Assets/reactlogo.png'
 import SQLLogo from '../../Assets/sqllogo.png'
 import JavaLogo from '../../Assets/javalogo.png'
-import HTMLLogo from '../../Assets/htmllogo2.png'
-import CSSLogo from '../../Assets/csslogo2.png'
+import HTMLLogo from '../../Assets/htmllogo.png'
+import CSSLogo from '../../Assets/csslogo.png'
 import JSLogo from '../../Assets/jslogo.png'
 
 const SkillSection = () => {

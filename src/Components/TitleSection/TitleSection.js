@@ -1,7 +1,7 @@
 import { React } from 'react'
 import './TitleSection.css'
-import GithubLogo from '../../Assets/github-4.png'
-import LinkedinLogo from '../../Assets/linkedin-3.png'
+import GithubLogo from '../../Assets/githublogo.png'
+import LinkedinLogo from '../../Assets/linkedinlogo.png'
 
 const TitleSection = () => {
   return (

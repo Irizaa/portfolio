@@ -1,8 +1,8 @@
 import { useState, React } from 'react'
 import './ProjectSection.css'
-import GithubLogo from '../../Assets/github-4.png'
+import GithubLogo from '../../Assets/githublogo.png'
 import PythonLogo from '../../Assets/pythonlogo.png'
-import NodeLogo from '../../Assets/nodelogo5.png'
+import NodeLogo from '../../Assets/nodelogo.png'
 import ReactLogo from '../../Assets/reactlogo.png'
 import SQLLogo from '../../Assets/sqllogo.png'
 
