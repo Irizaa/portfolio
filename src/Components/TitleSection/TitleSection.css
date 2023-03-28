@@ -3,13 +3,9 @@
     display: none;
     align-items: center;
 }
-@font-face {
-    font-family: 'Inter';
-    src: url(/src/Fonts/Inter/static/Inter-Bold.ttf)f;
-}
 #logo-container {
     left: 0;
-    width: 37%;
+    width: 33.5%;
     margin-right: 5%;
     text-align: right;
     align-items: center;
@@ -17,7 +13,7 @@
 }
 h1 {
     color: whitesmoke;
-    font-size: calc(40px + 2vmin);
+    font-size: calc(30px + 5vmin);
     font-family: 'Inter', sans-serif;
 }
 #github-logo {

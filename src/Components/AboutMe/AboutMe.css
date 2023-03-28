@@ -20,5 +20,6 @@ h2 {
 @media(max-width: 800px) {
     #about-container p {
         font-size: calc(12px + 2vmin);
+        width:80%
     }
 }

@@ -13,8 +13,8 @@ const SkillSection = () => {
   
   const skills = [
     {name: 'Java', image: JavaLogo},
-    {name: 'Python', image: PythonLogo},
     {name: 'JavaScript', image: JSLogo},
+    {name: 'Python', image: PythonLogo},
     {name: 'SQL', image: SQLLogo},
     {name: 'Node.js', image: NodeLogo},
     {name: 'React.js', image: ReactLogo},

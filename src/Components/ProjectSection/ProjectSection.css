@@ -6,17 +6,16 @@
 }
 #project-gifs {
     margin: 20px;
-    width: 50%;
+    width: 80%;
     text-align: right;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom:1vh;
     flex-wrap: wrap;
     display: absolute;
 }
 .small-video {
-    width: 300px;
+    width: 30%;
     cursor: pointer;
 }
 .higherlower-gif {
@@ -24,15 +23,59 @@
 }
 #project-information {
     width: 50%;
-    margin-left: 50px;
-    margin-top: -100px;
     display: inline-block;
 }
 #project-information h3 {
+    margin-top: 0;
     color: white;
-    font-size: calc(20px + 2vmin);
+    font-size: 2.3vw;
 }
 #project-information p {
     color: white;
-    font-size: calc(10px + 2vmin);
+    font-size: 1.6vw;
 }
+@media (max-width: 1300px) {
+    .small-video {
+      width: 40%;
+    }
+  
+    #project-information h3 {
+      font-size: 3.2vw;
+    }
+  
+    #project-information p {
+      font-size: 2vw;
+    }
+  }
+
+@media (max-width: 768px) {
+    .small-video {
+      width: 50%;
+    }
+  
+    #project-information h3 {
+      font-size: 4vw;
+    }
+  
+    #project-information p {
+      font-size: 2.5vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .small-video {
+      width: 80%;
+    }
+  
+    #project-information h3 {
+      font-size: 6vw;
+    }
+  
+    #project-information p {
+      font-size: 4vw;
+    }
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+  }

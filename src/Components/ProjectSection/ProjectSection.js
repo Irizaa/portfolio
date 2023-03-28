@@ -14,7 +14,7 @@ import SQLLogo from '../../Assets/sqllogo.png'
 const ProjectSection = () => {
   const projects = [
     {
-      name: 'Soundstats',
+      name: 'soundstats',
       githubLink: 'https://github.com/Irizaa/soundstats',
       description: `full-stack web-application which visualizes a user's historical spotify statistics`,
       metaname: 'soundstats',
@@ -51,7 +51,8 @@ const ProjectSection = () => {
     })
     const elements2 = document.querySelectorAll(`.${opposite}-gif`);
       elements2.forEach(element => {
-      element.style.filter = 'grayscale(100%)';
+      element.style.filter = 'grayscale(100%)'
+      element.style.borderTop = '2px solid red';
     })
   }
   console.log(currProject)

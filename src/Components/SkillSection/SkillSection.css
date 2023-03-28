@@ -29,7 +29,7 @@
 }
 #skill-icons {
     text-align: center;
-    width: 50%;
+    width: 80%;
 }
 #skill-icons p {
     color: whitesmoke;
@@ -52,4 +52,18 @@
 .skill-icon:hover {
     outline: var(--b) solid var(--c);
     outline-offset: var(--g);
+}
+@media(max-width: 824px) {
+    .skill-icon {
+        width: 150px;
+        outline: calc(150px/2) solid #0009;
+        outline-offset: calc(150px/-2)
+    }
+}
+@media(max-width: 426px) {
+    .skill-icon {
+        width: 92px;
+        outline: calc(90px/2) solid #0009;
+        outline-offset: calc(90px/-2)
+    }
 }
