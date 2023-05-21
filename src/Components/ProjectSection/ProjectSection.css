@@ -4,6 +4,10 @@
     background-color: 	#001f24;
     display: none;
 }
+#clickme-icon {
+  width: 85px;
+  height: 85px;
+}
 #project-gifs {
     margin: 20px;
     width: 80%;
@@ -81,5 +85,9 @@
     .logo {
         width: 30px;
         height: 30px;
+    }
+    #clickme-icon {
+      margin-top: 5px;
+      transform: rotate(30deg);
     }
   }

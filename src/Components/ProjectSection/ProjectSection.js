@@ -5,6 +5,7 @@ import PythonLogo from '../../Assets/pythonlogo.png'
 import NodeLogo from '../../Assets/nodelogo.png'
 import ReactLogo from '../../Assets/reactlogo.png'
 import SQLLogo from '../../Assets/sqllogo.png'
+import ClickMe from '../../Assets/clickmered.png'
 
 // https://i.imgur.com/O5f97aN.gif soundstats 1
 // https://i.imgur.com/oAZIgQz.gif soundstats 2
@@ -64,6 +65,7 @@ const ProjectSection = () => {
             <img onClick={() => handleProjectChange(projects[0])} alt = 'soundstats-3' className = 'small-video soundstats-gif' src = "https://i.imgur.com/ChlIT2T.gif"/>
             <img onClick={() => handleProjectChange(projects[1])} alt = 'higherlower-1' className = 'small-video higherlower-gif' src = "https://i.imgur.com/J5Kz0ni.gif"/>
             <img onClick={() => handleProjectChange(projects[1])} alt = 'higherlower-2' className = 'small-video higherlower-gif' src = "https://i.imgur.com/VvQtQuS.gif"/>
+            <img id = 'clickme-icon'src = {ClickMe}></img>
         </div>
         <div id = 'project-information'>
           <h3>
